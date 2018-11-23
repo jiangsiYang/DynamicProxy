@@ -1,5 +1,8 @@
 package com.shangshi;
 
+/**
+ * CGLib动态代理测试
+ */
 public class TestCGLibProxy {
     public static void main(String args[]) {
         Subject subject = CGLibProxy.getInstance().getProxy(RealSubject.class);
